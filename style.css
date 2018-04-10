@@ -203,9 +203,10 @@ a:hover {
   padding: 5px;
   color: rgba(0,0,0,0.3);
   border-radius: 4px;
-  width: 100%;
+  width: 90%;
   position: absolute;
   bottom: 0;
+  margin-left: 120px;
 }
 .footer-links {
   display: flex;
