@@ -5,6 +5,12 @@ body {
   font-size: 15px;
 }
 
+html, body {
+   height: 100vh;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
 
 h1{
   font-family: 'Montserrat', sans-serif;
@@ -59,10 +65,13 @@ td {
   margin-bottom: 50px;
 }
 
-
+#summary {
+  margin-top: 20px;
+}
 
 #page-content {
   margin-left: 120px;
+  height: 100vh;
 }
 
 .text_center{
@@ -93,8 +102,7 @@ td {
 
   #sidebar {
   display: none;
-}
-
+  }
 }
 
 
@@ -177,13 +185,15 @@ a:hover {
 
 /* footer wagon */
 .footer_xela {
-  background: #F4F4F4;
+  background:#ffffff;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 50px;
   padding: 5px;
   color: rgba(0,0,0,0.3);
+  border-radius: 4px;
+  margin-bottom: 5px;
 }
 .footer-links {
   display: flex;
